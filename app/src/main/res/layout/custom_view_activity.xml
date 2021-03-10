@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin">
+
+        <ImageView
+            android:id="@+id/image_custom"
+            android:layout_width="@dimen/custom_w_h"
+            android:layout_height="@dimen/custom_w_h"
+            android:background="#FFD180"
+            android:src="@drawable/hospital"/>
+        <LinearLayout
+            android:background="#FFE57F"
+            android:paddingLeft="@dimen/card_corner_radius"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/text_view_custom_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test 1" />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/text_view_custom_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test 2"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

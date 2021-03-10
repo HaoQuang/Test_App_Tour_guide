@@ -1,0 +1,39 @@
+
+----------------------------------------------
+
+Cấu trúc chương trình
+
+-  cho phép tra cứu các thông tin cần thiết cho khách du lịch
+-  phân loại theo nhóm và tối thiểu có 4 nhóm thông tin có nơi bạn sống
+
+ví dụ
++ khách sạn
++ ATM
++ Bệnh Viện
++ Điểm xe buýt
+
+Danh sách địa điểm ứng với từng nhóm lựa chọn
++ người dùng có thể chọn nhóm thông tin tra cứu từ màn hình chính
++ ứng dụng cho phép điều hướng sang màn hình danh sách các địa điểm theo nhóm thông tin được chọn
+
+**
+Nâng cao
+1. người dùng có thể lựa chọn location
+- mỗi location khác nhau sẽ có những thông tin cần tra cứu khác nhau
+2. mỗi địa điểm khác nhau sẽ có những thông tin khác nhau
+
+----------------------------------------------------------
+
+Lưu ý
+TextSize định dạng sp
+Kích thước sp
+code thủ công
+
+Tối thiểu 4 nhóm thông tin
+cho phép điều hướng sang màn hình khác theo thông tin chọn
+
+Mỗi màn hình được thiết kế bởi 1 fragment
+Tất cả fragment đều được quản lý bởi 1 activity
+
+Tuân thủ code Android
+có chú thích

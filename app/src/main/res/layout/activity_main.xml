@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/m_app"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="@drawable/background_1"
+    android:id="@+id/home_">
+
+<!--    Location-->
+    <TextView
+        android:gravity="center"
+        android:text="@string/vi_tri"
+
+        android:textSize="@dimen/text_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:src="@drawable/vietnam"/>
+
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/change_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/change"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_location" />
+
+<!--    menu-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_h_grid"
+
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <!--        Hotel-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_hotel"
+            android:backgroundTint="#8BFF5722"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/margin_card"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elvevation"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_size"
+                    android:src="@drawable/hotel" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/hotel"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--        Hospital-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_hospital"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:backgroundTint="#8BFF5722"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/margin_card"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elvevation"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_size"
+                    android:src="@drawable/hospital" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/benh_vien"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--        ATM-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_atm"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:backgroundTint="#8BFF5722"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="@dimen/margin_card"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elvevation"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_size"
+                    android:src="@drawable/atm_machine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atm"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+<!--        Bus-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_bus"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:backgroundTint="#8BFF5722"
+            android:layout_margin="@dimen/margin_card"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elvevation"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_size"
+                    android:src="@drawable/metro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xe_bus"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

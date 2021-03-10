@@ -1,0 +1,44 @@
+"ATM Hoàn Kiếm", "17 phố Lý Thường Kiệt, Phường Phan Chu Trinh, Quận Hoàn Kiếm, Hà Nội"
+"ATM Đinh Tiên Hoàng", "7 Đinh Tiên Hoàng, Quận Hoàn Kiếm, Hà Nội"
+"ATM Hội sở", "57 Lý Thường Kiệt, Quận Hoàn Kiếm, Hà Nội"
+"ATM Nam Hà Nội", "236 Lê Thanh Nghị, Quận Hai Bà Trưng, Hà Nội"
+"ATM Hai Bà Trưng","300-302 Trần Khát Chân, Quận Hai Bà Trưng, Hà Nội"
+"ATM Lê Ngọc Hân", "44 Lê Ngọc Hân, Quận Hai Bà Trưng, Hà Nội"
+"ATM Thăng Long", "129-131 Hoàng Quốc Việt, Quận Cầu Giấy, Hà Nội"
+"ATM Phạm Hùng", "Tòa nhà FPT Phạm Hùng, Quận Cầu Giấy, Hà Nội"
+"ATM Khâm Thiên","158 Khâm Thiên, Quận Đống Đa, Hà Nội"
+
+
+"Bệnh viện Bạch Mai", "78 – Đường Giải Phóng – Phương Mai – Đống Đa – Hà Nội"
+"Bệnh Viện Hữu Nghị", "Số 1 – Trần Khánh Dư – Quận Hai Bà Trưng – Hà Nội"
+"Bệnh Viện E, Hà Nội",
+"89 – Trần Cung – Nghĩa Tân – Cầu Giấy – Hà Nội"
+"Viện Răng Hàm Mặt", "40B – Tràng Thi – Hoàn Kiếm – Hà Nội"
+"Bệnh Viện Tai Mũi Họng Trung Ương", "78 – Đường Giải Phóng – Quận Đống Đa – Hà Nội"
+"Bệnh Viện Mắt Trung Ương", "85 – Phố Bà Triệu – Quận Hai Bà Trưng – Hà Nội"
+"Viện Y Học Cổ Truyền Trung Ương", "29 – Phố Nguyễn Bỉnh Khiêm – Quận Hai Bà Trưng – Hà Nội"
+"Bệnh Viện Nội Tiết", "80 – Thái Thịnh II – Thịnh Quang – Đống Đa – Hà Nội"
+"Bệnh Viện Việt Đức", "8 – Phố Phủ Doãn – Quận Hoàn Kiếm – Hà Nội"
+"Bệnh Viện Nhi Trung Ương", "18/879 – Đường La Thành – Quận Đống Đa – Hà Nội"
+
+"The Queen Hotel & Spa", "67 Thuốc Bắc, Hàng Bồ, Hàng Bồ, Quận Hoàn Kiếm, Hà Nội, Việt Nam"
+"Hanoi Nostalgia Hotel & Spa", "13-15 Luong Ngoc Quyen, Hang Buom, Hoan Kiem, Hàng Buồm, Quận Hoàn Kiếm, Hà Nội, Việt Nam"
+"Church Legend Hotel Hanoi", "46 Ấu Triệu, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội, Việt Nam"
+"Little Hanoi Diamond Hotel", "11 Bát Đàn, Quận Hoàn Kiếm, Hàng Bồ, Quận Hoàn Kiếm, Hà Nội, Việt Nam"
+"Flamingo Dai Lai Resort", "Thôn Ngọc Quang, Xã Ngọc Thanh, Vĩnh Phúc, Phúc Yên, Hà Nội, Việt Nam"
+"Annam Legend Hotel", "27 Hàng Bè, Hàng Bạc, Quận Hoàn Kiếm, Hà Nội, Việt Nam"
+"Hanoi Zesty Hotel", "20 Hàng Cân, Hàng Đào, Quận Hoàn Kiếm, Hà Nội, Việt Nam"
+"Bluebell Hotel", "41 Ngõ Huyện, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội, Việt Nam"
+
+"Tuyến 01", "BX Gia Lâm - BX Yên Nghĩa"
+ "Tuyến 02", "Bác cổ - BX Yên Nghĩa"
+ "Tuyến 03A", "BX Giáp Bát - BX Gia Lâm"
+ "Tuyến 03B", "Bx Giáp Bát - Vincom - Phúc Lợi"
+ "Tuyến 04", "Long Biên - BX Nước Ngầm"
+ "Tuyến 05", "Linh Đàm - Phú Diễn"
+ "Tuyến 06", "BX. Giáp Bát - Phú Minh (Phú Xuyên)"
+ "Tuyến 07", "Cầu Giấy - Nội Bài"
+ "Tuyến 08", "Long Biên - Đông Mỹ"
+
+
+

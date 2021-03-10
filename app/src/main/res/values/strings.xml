@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="xe_bus">Xe Buýt</string>
+    <string name="benh_vien">Bệnh viện</string>
+    <string name="atm">ATM</string>
+    <string name="hotel">Khách sạn</string>
+    <string name="vi_tri">Vị trí hiện tại Ha noi,Viet Nam</string>
+    <string name="vi_tri_new"></string>
+    <string name="change">Thay đổi</string>
+</resources>

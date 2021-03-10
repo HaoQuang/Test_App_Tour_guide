@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="m_app">16dp</dimen>
+    <dimen name="img_size">140dp</dimen>
+    <dimen name="text_location">17sp</dimen>
+    <dimen name="layout_h_grid">427dp</dimen>
+    <dimen name="layout_w_grid">20dp</dimen>
+    <dimen name="margin_card">15dp</dimen>
+    <dimen name="card_elvevation">8dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="custom_w_h">80dp</dimen>
+</resources>
